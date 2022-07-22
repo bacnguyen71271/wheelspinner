@@ -162,21 +162,21 @@ export default {
 }
 
 #chuc-mung header {
-    padding: 5px;
-    padding-top: 20px;
+    padding: 5px !important;
+    padding-top: 20px !important;
     text-align: center !important;
-    display: block;
-    border: none;
+    display: block !important;
+    border: none !important;
 }
 
 #chuc-mung footer {
-    display: block;
-    padding: 0;
-    padding-bottom: 10px;
-    border: none;
+    display: block !important;
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+    border: none !important;
 }
 
 #chuc-mung {
-    text-align: center;
+    text-align: center !important;
 }
 </style>
