@@ -77,6 +77,7 @@ export default {
                 this.prizesCanvas = JSON.parse(prizeItem)
             } else {
                 this.prizesCanvas = []
+                this.$router.push({path: '/products'})
             }
         },
         onCanvasRotateStart(rotate) {
